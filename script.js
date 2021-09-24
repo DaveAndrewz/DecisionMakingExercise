@@ -30,8 +30,7 @@ if (randomNum ==2 || randomNum ==4) {
 
 
 // 2.
-let returnedNum = randomNum >= 4 ? "Greater than or equal to 4" : "Less Than 4";
-console.log(returnedNum);
+randomNum >= 4 ? console.log("Greater than or equal to 4") : console.log("Less Than 4");
 // 3.
 
 switch (randomNum) {
