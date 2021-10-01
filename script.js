@@ -5,11 +5,9 @@ let randomNum = Math.floor(Math.random() * 5 + 1)
 // 1b.
 if (randomNum >= 4) {
     console.log("Greater than or equal to 4");
-} else if (randomNum == 2) {
+} else if (randomNum == 2 || 3) {
     console.log("Equal to 2 or 3");
-} else if (randomNum == 3 ) {
-    console.log("Equal to 2 or 3");
-} else if (randomNum == 1) {
+} else (randomNum == 1) {
     console.log("Equal to 1");
 } 
 // 1c.    
@@ -30,7 +28,7 @@ if (randomNum ==2 || randomNum ==4) {
 
 
 // 2.
-randomNum >= 4 ? console.log("Greater than or equal to 4") : console.log("Less Than 4");
+(randomNum >= 4) ? console.log("Greater than or equal to 4") : console.log("Less Than 4");
 // 3.
 
 switch (randomNum) {
